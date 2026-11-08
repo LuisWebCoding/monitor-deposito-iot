@@ -9,7 +9,7 @@ Protótipo acadêmico para monitorar a temperatura e a umidade do depósito do G
 
 ## Executar e avaliar
 
-1. Abra [o projeto no Wokwi](https://wokwi.com/projects/480052950287785985).
+1. Abra [o projeto no Wokwi](https://wokwi.com/projects/480053698946010113).
 2. Inicie a simulação e acompanhe o monitor serial em 115200 baud.
 3. Abra o [cliente web do HiveMQ](https://www.hivemq.com/demos/websocket-client/).
 4. Use um ClientID próprio, diferente do ESP32, como `gestor-0020016349-avaliacao`. Deixe usuário e senha vazios e conecte usando as configurações de WebSocket do cliente web.
@@ -93,7 +93,7 @@ Mantenha Wokwi e Messages visíveis, com a matrícula nas mensagens. Espere as l
 | Histerese adicional | Reduzir de 30 para 28,5 °C | LED permanece aceso |
 | T3 retorno | Reduzir para 27 °C | LED apaga e telemetria mostra alarme 0 |
 
-O autor informou que os testes funcionaram. Uma captura compartilhada durante o desenvolvimento mostrou telemetria com 24 °C, umidade 55% e alarme 0 no cliente HiveMQ. O vídeo de até 60 segundos será a evidência dos três testes para a entrega; ainda não está incluído neste pacote.
+O autor informou que os testes funcionaram. Uma captura compartilhada durante o desenvolvimento mostrou telemetria com 24 °C, umidade 55% e alarme 0 no cliente HiveMQ. O vídeo Apresentação de Sistema Iot e Hive MQ.webm tem aproximadamente 57 segundos e é entregue separadamente no Teams.
 
 Sugestão de gravação: 0–15 s identificação e T1; 15–35 s T2 e alerta recebido; 35–55 s T3 e retorno; 55–60 s visão final.
 
@@ -119,6 +119,7 @@ As reconexões podem bloquear brevemente o laço e atrasar a leitura programada.
 
 - Código e circuito incluídos neste repositório.
 - Projeto executável: link do Wokwi acima.
-- Dossiê PDF e vídeo: ainda precisam ser adicionados para concluir a entrega.
+- Dossiê: Dossie_0020016349_Luis_Augusto.pdf, entregue no Teams junto ao vídeo Apresentação de Sistema Iot e Hive MQ.webm.
 - Uso de IA: houve apoio do ChatGPT/Codex para adaptar o código, explicar MQTT e histerese e organizar a documentação. O aluno deve revisar o material e conseguir explicar a implementação.
-- A declaração sobre trabalho em dupla e a reflexão sobre o painel IH Alagou devem ser preenchidas pelo autor com base na experiência real.
+- Trabalho individual: Luis Augusto Silva de Sá, sem trabalho em dupla. A reflexão sobre o caso IH Alagou e sua aplicação ao depósito está no dossiê, com indicação da fonte consultada.
+
